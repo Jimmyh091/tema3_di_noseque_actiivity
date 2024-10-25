@@ -7,6 +7,14 @@
     android:layout_height="match_parent"
     tools:context=".ejercicio3">
 
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="205dp"
+        app:layout_constraintWidth_percent="0.5" />
+
     <Button
         android:id="@+id/button8"
         android:layout_width="wrap_content"
@@ -86,13 +94,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/button13"
         app:layout_constraintTop_toTopOf="@+id/button13" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintWidth_percent="0.5" />
 
     <Button
         android:id="@+id/button17"
